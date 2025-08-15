@@ -65,7 +65,7 @@ public class LibraryManagementSystem {
 
         books.add(new Book(id, title, author));
         saveData();
-        System.out.println("Book added successfully!");
+        System.out.println("You added a Book successfully!");
     }
 
     private static void viewBooks() {
